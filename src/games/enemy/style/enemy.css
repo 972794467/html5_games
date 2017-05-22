@@ -1,0 +1,63 @@
+#game {
+    position: relative;
+    width: 319px;
+    height: 375px;
+    overflow: hidden;
+    margin: 40px auto 0;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+
+#gameover {
+    background-image: url(../img/gophers-Slice_Gameover.png);
+}
+
+#game{
+    background-image: url(../img/gophers-Slice_Background.png);
+}
+
+#timer {
+    background-image: url(../img/gophers-Slice_Timeboard.png);
+}
+
+#progress {
+    background-image: url(../img/gophers-Slice_time-line.png);
+}
+
+.enemys#enemy_1,.enemys#enemy_7,.enemys#enemy_8,.enemys#enemy_9,.enemys#enemy_10 {
+    background-image: url(../img/gophers-1.png);
+}
+
+.enemys#enemy_2{
+    background-image: url(../img/gophers-2.png);
+}
+
+.enemys#enemy_3{
+    background-image: url(../img/gophers-3.png);
+}
+.enemys#enemy_4{
+    background-image: url(../img/gophers-4.png);
+}
+.enemys#enemy_5{
+    background-image: url(../img/gophers-5.png);
+}
+.enemys#enemy_6{
+    background-image: url(../img/gophers-6.png);
+}
+
+#mound {
+    background-image: url(../img/gophers-Slice_Mound.png);
+}
+
+#score_board {
+    background-image: url(../img/gophers-Slice_Scoreboard.png);
+}
+
+#score_11 {
+    background-image: url(../img/gophers-Slice_Score-2.png);
+}
+
+.effect {
+    background-image: url(../img/gophers-Slice_Boom.png);
+}
+
