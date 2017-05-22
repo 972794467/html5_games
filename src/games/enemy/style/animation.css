@@ -1,11 +1,3 @@
-animation-name:effect1 
-@-webkit-keyfreames effect1 {
-    0% {-webkit-transform: translateX(0px) translateY(0px); opacity: 0;}
-    30% {-webkit-transform: translateX(-10px) translateY(-10px); opacity: 1;}
-    80% {-webkit-transform: translateX(-10px) translateY(-10px); opacity: 1;}
-    100% {-webkit-transform: translateX(0px) translateY(0px); opacity: 0;}
-}
-
 #enemy {
     position: absolute;
     top: 150px;
@@ -266,7 +258,7 @@ animation-name:effect1
     100% {-webkit-transform:translateX(0px) translateY(0px);opacity: 0;}
 }
 
-@-webkit-keyframes effect1 {
+@-webkit-keyframes effect2 {
     0% {-webkit-transform:translateX(0px) translateY(0px);opacity: 0;}
     30% {-webkit-transform:translateX(10px) translateY(-10px);opacity: 1;}
     80% {-webkit-transform:translateX(10px) translateY(-10px);opacity: 1;}
@@ -301,50 +293,53 @@ animation-name:effect1
     pointer-events: auto;
 }
 
-#socre_board {
+#score_board {
     position: absolute;
-    top: 85px;
-    left: 85px;
-    width: 157px;
-    height: 105px;
+    top: 100px;
+    left: 100px;
+    width: 110px;
+    height: 65px;
     z-index: 10;
     background-position: 0px 0px;
     background-repeat: no-repeat;
+    background-size:100% 100%;
 }
 
 #score_wrap {
     position: absolute;
-    top: 23px;
-    left: 25px;
-    width: 111px;
-    height: 63.5px;
+    top: 10px;
+    left: 10px;
+    width: 95px;
+    height: 50.6px;
     overflow: hidden;
 }
 
 #score_11 {
     position: relative;
     display: block;
-    width: 111px;
-    height: 694px;
+    width: 95px;
+    height: 550px;
     -webkit-appearance: none;
     -moz-appearance: none;
     background-position: 0px 0px;
     background-repeat: no-repeat;
+    background-size:100% 100%;
 }
 
 #score {
     position: absolute;
-    top: -640px;
+    top: -510px;
     left: 0;
-    width: 111px;
-    height: 694px;
+    width: 95px;
+    height: 550px;
+    
 }
 
 .score {
     position: relative;
     display: block;
-    width: 111px;
-    height: 63.5px;
+    width: 95px;
+    height: 51px;
     background-color: transparent;
     -webkit-appearance: button;
     -moz-appearance: button;
@@ -359,7 +354,7 @@ animation-name:effect1
 
 #timer {
     position: absolute;
-    top: 310px;
+    top: 330px;
     left: 5px;
     z-index: 10;
     width: 309px;
